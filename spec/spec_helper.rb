@@ -19,7 +19,7 @@ Dir[File.expand_path('../../spec/support/**/*.rb', __FILE__)].each { |f| require
 
 require 'i18n'
 I18n.load_path = Dir['config/locales/**/*.yml']
-I18n.default_locale = :'en-US'
+I18n.default_locale = :en
 
 RSpec.configure do |config|
   # rspec-expectations config goes here. You can use an alternate

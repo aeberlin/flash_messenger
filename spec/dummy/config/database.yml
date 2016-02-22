@@ -20,6 +20,10 @@ test:
   <<: *default
   database: db/test.sqlite3
 
+travis:
+  <<: *default
+  database: ':memory:'
+
 production:
   <<: *default
   database: db/production.sqlite3

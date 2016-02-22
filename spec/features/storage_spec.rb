@@ -116,7 +116,7 @@ RSpec.describe FlashMessenger::Storage do
 
     let(:expected_json) do
       {
-        "locale" => "en-US",
+        "locale" => "en",
         "messages" => [
           {
             "i18n_params" => { "raise" => true },
