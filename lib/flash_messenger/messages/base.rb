@@ -58,16 +58,18 @@ module FlashMessenger
       end
 
       def match?(other)
-        if other.is_a?(Base)
+        if other.is_a?(self.class)
           us = "#{self.class_name}, #{self.level}, #{self.message}"
           them = "#{self.class_name}, #{self.level}, #{self.message}"
-          us =~ them
+          return us =~ them
         elsif other.is_a?(String)
-          self.to_s =~ other
+          return self.to_s =~ %r(#{other})
         end
+
         nil
       end
 
+      alias_method :match, :match?
       alias_method :==, :eql?
 
       #

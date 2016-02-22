@@ -10,5 +10,16 @@ module FlashMessenger
       g.assets false
       g.helper false
     end
+
+    initializer 'flash_messenger.default_locale' do |app|
+      app.config.tap do |c|
+        default_locale = \
+          c.try(:flash_messenger).try(:default_locale) ||
+          c.try(:i18n).try(:default_locale) ||
+          :en
+
+        ::FlashMessenger::DEFAULT_LOCALE = default_locale
+      end
+    end
   end
 end

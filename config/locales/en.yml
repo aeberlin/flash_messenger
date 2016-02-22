@@ -19,7 +19,7 @@
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
 
-en-US:
+en:
   development:
     lorem_ipsum_1: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id lobortis tortor. Nam cursus pharetra purus non elementum. Sed eu libero leo. Aliquam eget justo vel odio consectetur facilisis id a sapien. Duis pulvinar tincidunt suscipit. Quisque volutpat justo vitae fringilla lacinia. Aenean semper, nulla at mattis sagittis, purus felis aliquet lorem, sit amet suscipit dolor elit nec tellus. Pellentesque interdum nulla maximus massa elementum, at posuere augue scelerisque.
     lorem_ipsum_2: Nulla sagittis quam at est tincidunt, at consectetur leo vehicula. Vestibulum et faucibus odio. Vivamus interdum consectetur metus vitae aliquam. Integer vitae felis diam. Vestibulum consectetur dictum magna eget finibus. Integer sit amet interdum augue. Nullam ultricies malesuada odio, at tincidunt nisi semper nec. Pellentesque vitae convallis ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut vitae risus blandit, sodales nulla at, placerat dui.
